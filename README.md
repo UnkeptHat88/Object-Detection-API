@@ -140,6 +140,9 @@ python detect.py --weights ./weights/yolov3-tiny.tf --tiny --images "data/images
 # webcam
 python detect_video.py --video 0
 
+# webcam-tiny
+python detect_video.py --video 0 --weights ./weights/yolov3-tiny.tf --tiny
+
 # video file
 python detect_video.py --video data/video/paris.mp4 --weights ./weights/yolov3-tiny.tf --tiny
 
